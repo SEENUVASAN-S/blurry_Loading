@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+.bg
+{
+    background: url(https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?cs=srgb&dl=bloom-blooming-blossom-462118.jpg&fm=jpg)no-repeat center center/cover;
+    position:fixed;
+    top:-30px;
+    left:-30px;
+    width:1550px;
+    height:800px;
+    z-index:-1;
+    filter:blur(0px);
+}
+.loadingtext
+{
+    font-size:50px;
+    color:white;
+}
